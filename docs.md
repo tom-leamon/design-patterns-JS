@@ -32,7 +32,9 @@
 
 
 ## behavioral
+Most of these design patterns are specifically concerned with communication between objects.
 ### Chain Of Resp
+delegates commands to a chain of processing objects.
 ##### chain-of-resp-es6.js
 ```Javascript
 class ShoppingCart {
