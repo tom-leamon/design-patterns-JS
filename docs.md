@@ -1,7 +1,7 @@
 # Design Patterns JS
 
 **[Behavioral](#Behavioral)**
-* [Chain Of Resp](#chain-of-resp)
+* [Chain Of Resp](#chain-of-resp) delegates commands to a chain of processing objects.
 * [Command](#command)
 * [Interpreter](#interpreter)
 * [Iterator](#iterator)
