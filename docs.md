@@ -1,33 +1,36 @@
 # Design Patterns JS
 
 **[Behavioral](#Behavioral)**
+Most of these design patterns are specifically concerned with communication between objects.
 * [Chain Of Resp](#chain-of-resp) delegates commands to a chain of processing objects.
-* [Command](#command)
-* [Interpreter](#interpreter)
-* [Iterator](#iterator)
-* [Mediator](#mediator)
-* [Memento](#memento)
-* [Observer](#observer)
-* [State](#state)
-* [Strategy](#strategy)
-* [Template](#template)
-* [Visitor](#visitor)
+* [Command](#command) creates objects which encapsulate actions and parameters.
+* [Interpreter](#interpreter) implements a specialized language.
+* [Iterator](#iterator) accesses the elements of an object sequentially without exposing its underlying representation.
+* [Mediator](#mediator) allows loose coupling between classes by being the only class that has detailed knowledge of their methods.
+* [Memento](#memento) provides the ability to restore an object to its previous state (undo).
+* [Observer](#observer) is a publish/subscribe pattern which allows a number of observer objects to see an event.
+* [State](#state) allows an object to alter its behavior when its internal state changes.
+* [Strategy](#strategy) allows one of a family of algorithms to be selected on-the-fly at runtime.
+* [Template](#template) method defines the skeleton of an algorithm as an abstract class, allowing its subclasses to provide concrete behavior.
+* [Visitor](#visitor) separates an algorithm from an object structure by moving the hierarchy of methods into one object.
 
 **[Creational](#Creational)**
-* [Abstract Factory](#abstract-factory)
-* [Builder](#builder)
-* [Factory](#factory)
-* [Prototype](#prototype)
-* [Singleton](#singleton)
+Creational patterns are ones that create objects for you, rather than having you instantiate objects directly. This gives your program more flexibility in deciding which objects need to be created for a given case.
+* [Abstract Factory](#abstract-factory) provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+* [Builder](#builder) separate the construction of a complex object from its representation, allowing the same construction process to create various representations.
+* [Factory](#factory) define an interface for creating a single object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+* [Prototype](#prototype) specify the kinds of objects to create using a prototypical instance, and create new objects from the 'skeleton' of an existing object, thus boosting performance and keeping memory footprints to a minimum.
+* [Singleton](#singleton) ensure a class has only one instance, and provide a global point of access to it.
 
 **[Structural](#Structural)**
-* [Adapter](#adapter)
-* [Bridge](#bridge)
-* [Composite](#composite)
-* [Decorator](#decorator)
-* [Facade](#facade)
-* [Flyweight](#flyweight)
-* [Proxy](#proxy)
+These concern class and object composition. They use inheritance to compose interfaces and define ways to compose objects to obtain new functionality.
+* [Adapter](#adapter) allows classes with incompatible interfaces to work together by wrapping its own interface around that of an already existing class.
+* [Bridge](#bridge) decouples an abstraction from its implementation so that the two can vary independently.
+* [Composite](#composite) composes zero-or-more similar objects so that they can be manipulated as one object.
+* [Decorator](#decorator) dynamically adds/overrides behaviour in an existing method of an object.
+* [Facade](#facade) provides a simplified interface to a large body of code.
+* [Flyweight](#flyweight) reduces the cost of creating and manipulating a large number of similar objects.
+* [Proxy](#proxy) provides a placeholder for another object to control access, reduce cost, and reduce complexity.
 
 
 
